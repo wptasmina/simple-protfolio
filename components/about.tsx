@@ -118,7 +118,7 @@ export function About() {
               Great software isn&apos;t just about clean code—it&apos;s about understanding the problem deeply, designing
               thoughtful solutions, and delivering experiences that users love.
             </p>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button variant="outline" className="border-white text-zinc-900 cursor-pointer hover:bg-white hover:text-blue-600">
               View my work
               <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
