@@ -1,8 +1,14 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github } from "lucide-react"
-import Image from "next/image"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Github } from "lucide-react";
+import Image from "next/image";
 
 export function Projects() {
   const projects = [
@@ -12,8 +18,8 @@ export function Projects() {
         "A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.",
       image: "/xyz.png",
       technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://xyzcompany-9211e.web.app",
+      githubUrl: "https://github.com/wptasmina/xyz-company-client",
     },
     {
       title: "Task Management App",
@@ -21,26 +27,30 @@ export function Projects() {
         "A collaborative task management application with real-time updates and team collaboration features.",
       image: "/task.png",
       technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://tesk-management-app-client.vercel.app",
+      githubUrl: "https://github.com/wptasmina/task-management-app-client",
     },
     {
       title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
+      description:
+        "A responsive weather dashboard with location-based forecasts and interactive charts.",
       image: "/weather.webp",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "Tailwind CSS"],
       liveUrl: "#",
       githubUrl: "#",
     },
-  ]
+  ];
 
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Featured Projects</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Featured Projects
+          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and experience.
+            Here are some of my recent projects that showcase my skills and
+            experience.
           </p>
         </div>
 
@@ -48,7 +58,12 @@ export function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden">
               <div className="relative h-48">
-                <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+                <Image
+                  src={project.image || "/placeholder.svg"}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
@@ -57,7 +72,11 @@ export function Projects() {
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="outline" className="text-xs">
+                    <Badge
+                      key={techIndex}
+                      variant="outline"
+                      className="text-xs"
+                    >
                       {tech}
                     </Badge>
                   ))}
@@ -67,7 +86,11 @@ export function Projects() {
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live Demo
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1 bg-background text-foreground">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1 bg-background text-foreground"
+                  >
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
@@ -78,5 +101,5 @@ export function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
