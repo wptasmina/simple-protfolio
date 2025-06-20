@@ -61,6 +61,6 @@ npm run dev
 
 | Platform  | Link                                                  |
 | --------- | ----------------------------------------------------- |
-| 🔗 Vercel | [Live Site](https://simple-protfolio-9pwr.vercel.app) |
+| 🔗 Vercel | [Live Site](https://simple-protfolio-blond.vercel.app) |
 
 
