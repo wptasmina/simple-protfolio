@@ -19,7 +19,7 @@ export function Hero() {
             JD
           </div>
           <h1 className="text-4xl sm:text-6xl font-bold mb-4">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">John Doe</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8">Full Stack Developer & UI/UX Designer</p>

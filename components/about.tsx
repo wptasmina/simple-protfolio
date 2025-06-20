@@ -26,7 +26,7 @@ export function About() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            I'm a full-stack developer who believes great software comes from understanding both the technical
+            I&apos;m a full-stack developer who believes great software comes from understanding both the technical
             challenges and human needs behind every project.
           </p>
         </div>
@@ -39,14 +39,14 @@ export function About() {
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg leading-relaxed text-foreground mb-6">
                   My journey began with a simple curiosity about how websites work. That curiosity evolved into a deep
-                  passion for creating digital solutions that make people's lives easier and businesses more successful.
+                  passion for creating digital solutions that make people&apos;s lives easier and businesses more successful.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  Today, I specialize in building scalable web applications using modern technologies. I've worked with
+                  Today, I specialize in building scalable web applications using modern technologies. I&apos;ve worked with
                   startups launching their first product and established companies modernizing their tech stack.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  When I'm not coding, you'll find me exploring new technologies, contributing to open source projects,
+                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open source projects,
                   or sharing knowledge with the developer community through writing and mentoring.
                 </p>
               </div>
@@ -60,7 +60,7 @@ export function About() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">User-Centered Design</h3>
                 <p className="text-muted-foreground">
-                  Every project starts with understanding the user's needs and creating solutions that provide real
+                  Every project starts with understanding the user&apos;s needs and creating solutions that provide real
                   value.
                 </p>
               </Card>
@@ -92,9 +92,9 @@ export function About() {
             </Card>
 
             <Card className="p-8 border-0 bg-black text-white">
-              <h3 className="text-xl font-semibold mb-4">Let's work together</h3>
+              <h3 className="text-xl font-semibold mb-4">Let&apos;s work together</h3>
               <p className="text-gray-300 mb-6 text-sm">
-                Ready to bring your ideas to life? Let's discuss your next project.
+                Ready to bring your ideas to life? Let&apos;s discuss your next project.
               </p>
               <div className="space-y-3">
                 <Button className="w-full bg-white text-black hover:bg-gray-100">
@@ -115,8 +115,8 @@ export function About() {
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-3xl font-bold mb-6">My Philosophy</h3>
             <p className="text-xl leading-relaxed opacity-90 mb-8">
-              "Great software isn't just about clean code—it's about understanding the problem deeply, designing
-              thoughtful solutions, and delivering experiences that users love."
+              Great software isn&apos;t just about clean code—it&apos;s about understanding the problem deeply, designing
+              thoughtful solutions, and delivering experiences that users love.
             </p>
             <Button variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
               View my work

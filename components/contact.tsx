@@ -11,16 +11,16 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get In Touch</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities and interesting projects.
+            I&apos;m always open to discussing new opportunities and interesting projects.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Let's work together</h3>
+            <h3 className="text-2xl font-semibold mb-6">Let&apos;s work together</h3>
             <p className="text-muted-foreground mb-8">
-              Whether you have a project in mind, want to collaborate, or just want to say hello, I'd love to hear from
-              you. Drop me a message and I'll get back to you as soon as possible.
+              Whether you have a project in mind, want to collaborate, or just want to say hello, I&apos;d love to hear from
+              you. Drop me a message and I&apos;ll get back to you as soon as possible.
             </p>
 
             <div className="space-y-4">
@@ -42,7 +42,7 @@ export function Contact() {
           <Card>
             <CardHeader>
               <CardTitle>Send me a message</CardTitle>
-              <CardDescription>Fill out the form below and I'll get back to you within 24 hours.</CardDescription>
+              <CardDescription>Fill out the form below and I&apos;ll get back to you within 24 hours.</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">
