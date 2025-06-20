@@ -20,7 +20,7 @@ export function About() {
             About Me
           </div>
           <h2 className="text-5xl sm:text-6xl font-bold mb-6 leading-tight">
-            Crafting digital experiences with{" "}
+            Crafting digital experiences with
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800">
               passion & precision
             </span>
