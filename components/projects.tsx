@@ -36,8 +36,8 @@ export function Projects() {
         "A responsive weather dashboard with location-based forecasts and interactive charts.",
       image: "/weather.webp",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://weather-app-website-45.vercel.app",
+      githubUrl: "https://github.com/wptasmina/weather-app",
     },
   ];
 
