@@ -54,7 +54,7 @@ export function Navigation() {
           <div className="text-2xl font-bold">Portfolio</div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 cursor-pointer">
             {navItems.map((item) => (
               <button
                 key={item.id}
