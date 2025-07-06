@@ -6,6 +6,8 @@ import { Hero } from "@/components/hero"
 import { Navigation } from "@/components/navigation"
 import { Projects } from "@/components/projects"
 import { Skills } from "../components/skills"
+// import TestimonialsGrid from "@/components/card/TestimonialsGrid"
+import Testimonial from "@/components/Testimonials/Testimonial"
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      {/* <TestimonialsGrid/> */}
+      <Testimonial/>
       <Contact />
      </div>
     </main>
